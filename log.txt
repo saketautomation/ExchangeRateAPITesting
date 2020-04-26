@@ -1,0 +1,39 @@
+Request method:	GET
+Request URI:	https://api.ratesapi.io/api/2010-05-15?symbols=GBP&base=EUR
+Proxy:			<none>
+Request params:	<none>
+Query params:	symbols=GBP
+				base=EUR
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 26 Apr 2020 16:48:23 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d084614faee06ab15ac17fb84660b22881587919703; expires=Tue, 26-May-20 16:48:23 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 2468
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 58a1ca800cc6ed67-SJC
+Content-Encoding: gzip
+cf-request-id: 0258fce4060000ed677704f200000001
+
+{
+    "base": "EUR",
+    "rates": {
+        "GBP": 0.8571
+    },
+    "date": "2010-05-14"
+}
